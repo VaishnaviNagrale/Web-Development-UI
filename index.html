@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple UI-1</title>
+    <!--Favicon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <!--fontawsome-->
+    <script src="https://kit.fontawesome.com/c5f3c3532a.js" crossorigin="anonymous"></script>
+    <!--Css-->
+    <link rel="stylesheet" href="css/styles.css">
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&family=Fasthand&family=Roboto&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Crimson+Text:ital@1&family=Fasthand&family=Roboto&display=swap"
+        rel="stylesheet">
+    <!--Script-->
+    <script src="scripts/script.js"></script>
+</head>
+
+<body>
+    <div id="container">
+        <!--Header-->
+        <header>
+            <div id="topbar" class="uni-padding">
+                <p id="tollfree">Toll Free 123456789</p>
+                <div id="social-icon">
+                    <a href="" class="link-icon"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="" class="link-icon"><i class="fa-brands fa-square-whatsapp"></i></a>
+                    <a href="" class="link-icon"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="" class="link-icon"><i class="fa-brands fa-square-twitter"></i></a>
+                </div>
+            </div>
+            <div id="logoBar" class="uni-padding">
+                <img src="Images/TechCrunch.png" alt="logo">
+            </div>
+            <nav id="navBar">
+                <ul>
+                    <!--mobile btn-->
+                    <li id="mobile-cross" style="text-align: right;" onclick="closeMenu()" class="a"><a href="javascript:void(0)"><i class="fa-solid fa-square-xmark"></i></a></li>
+                    <li class="a"><a href="#topbar">Home</a></li>
+                    <li class="a"><a href="#poster">About us</a></li>
+                    <li class="a"><a href="#blog-us">Content</a></li>
+                    <li class="a"><a href="#why-us">Work Experience</a></li>
+                    <li class="a"><a href="#subscrip-section">Subscribe us</a></li>
+                    <li class="a"><a href="#contact-container">Contact us</a></li>
+                    <li class="a"><a href="#imp-link">Imp Links</a></li>
+                </ul>
+            </nav>
+            <div id="mobile-menu-btn" onclick="openMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+        <!--Poster-->
+        <div id="poster" class="uni-padding">
+            <h1>Lorem ipsum dolar</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa porro eaque earum suscipit? Vero ratione
+                quas accusantium esse alias nam magni eum cupiditate modi aliquid! Velit, molestiae! Sapiente, tempora
+                minus?</p>
+        </div>
+        <!--Why us-->
+        <div id="why-us" class="uni-padding">
+            <h1 class="read-heading">WHY US</h1>
+            <div class="section33">
+                <img src="Images/lady-img.jpg" alt="">
+                <h2>Heading 1</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi officia, eos aperiam quia a aut
+                    est commodi debitis consectetur saepe deleniti odit deserunt corrupti eum ab, porro at delectus
+                    similique!</p>
+            </div>
+            <div class="section33">
+                <img src="Images/dog-img.jpg" alt="">
+                <h2>Heading 2</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi officia, eos aperiam quia a aut
+                    est commodi debitis consectetur saepe deleniti odit deserunt corrupti eum ab, porro at delectus
+                    similique!</p>
+            </div>
+            <div class="section33">
+                <img src="Images/lady-img.jpg" alt="">
+                <h2>Heading 3</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi officia, eos aperiam quia a aut
+                    est commodi debitis consectetur saepe deleniti odit deserunt corrupti eum ab, porro at delectus
+                    similique!</p>
+            </div>
+        </div>
+        <!--Contact us-->
+        <div id="contact-container" class="uni-padding">
+            <div id="section-70">
+                <h1>Lorem ipsum dolor sit amet.</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit corrupti nesciunt illo qui, doloremque
+                    ipsam impedit expedita distinctio hic inventore possimus molestias maiores dolorem nobis adipisci,
+                    quibusdam, soluta recusandae quaerat.</p>
+            </div>
+            <div id="section-30">
+                <a href="" id="contact-btn">contact-us</a>
+            </div>
+        </div>
+        <!--Blog section-->
+        <div id="why-us" class="uni-padding">
+            <h1 class="read-heading">WHY US</h1>
+            <div class="section33">
+                <img style="width: 60%; border-radius: 0;" src="Images/dog-img.jpg" alt="">
+                <h2>Blog 1</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi officia, eos aperiam quia a aut
+                    est commodi debitis consectetur saepe deleniti odit deserunt corrupti eum ab, porro at delectus
+                    similique!</p>
+                <a href="">read more</a>
+            </div>
+            <div class="section33">
+                <img style="width: 60%; border-radius: 0;" src="Images/lady-img.jpg" alt="">
+                <h2>Blog 2</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi officia, eos aperiam quia a aut
+                    est commodi debitis consectetur saepe deleniti odit deserunt corrupti eum ab, porro at delectus
+                    similique!</p>
+                <a href="">read more</a>
+            </div>
+            <div class="section33">
+                <img style="width: 60%; border-radius: 0;" src="Images/dog-img.jpg" alt="">
+                <h2>Blog 3</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi officia, eos aperiam quia a aut
+                    est commodi debitis consectetur saepe deleniti odit deserunt corrupti eum ab, porro at delectus
+                    similique!</p>
+                <a href="">read more</a>
+            </div>
+        </div>
+        <!--Subscribe us-->
+        <div id="subscrip-section" class="uni-padding">
+            <div id="section-50">
+                <h2>Subscribe to our news letter</h2>
+            </div>
+            <div id="section-50">
+                <form action="">
+                    <input type="text" placeholder="Enter your email id">
+                    <input type="submit">
+                </form>
+            </div>
+        </div>
+        <!--Footer-->
+        <footer>
+            <div id="imp-link" class="uni-padding">
+                <div class="div33" id="footer-text-menu">
+                    <h3>About us</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi alias quaerat harum voluptate
+                        sint quae modi, temporibus dicta tenetur! Distinctio pariatur qui excepturi eos consectetur quis
+                        at, accusantium aliquid? Maxime. Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="div33">
+                    <h3>Important Links</h3>
+                    <ul id="footer-menu">
+                        <li class="a"><a href="#topbar">Home</a></li>
+                        <li class="a"><a href="#poster">About us</a></li>
+                        <li class="a"><a href="#blog-us">Content</a></li>
+                        <li class="a"><a href="#why-us">Work Experience</a></li>
+                        <li class="a"><a href="#subscrip-section">Subscribe us</a></li>
+                        <li class="a"><a href="#contact-container">Contact us</a></li>
+                        <li class="a"><a href="#imp-link">Imp Links</a></li>
+                    </ul>
+                </div>
+                <div class="div33">
+                    <h3>Contact us</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum, atque! Consectetur hic quas
+                        accusamus molestiae dolorem rerum! Possimus, laboriosam nihil minus porro tenetur ipsum ullam
+                        doloribus, in quasi, temporibus nesciunt?</p>
+                </div>
+            </div>
+            <div id="copywrite">
+                <p>Copywrite &copy; TechCrunch 2023-24</p>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

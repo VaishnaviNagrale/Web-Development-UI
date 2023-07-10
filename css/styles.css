@@ -1,0 +1,365 @@
+*{
+font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4,h5{
+    font-family: 'Caprasimo', cursive;
+}
+/* body */
+body{
+    margin: 0;
+}
+.uni-padding{
+    padding: 0 5%;
+}
+/* top bar */
+#topbar{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: gray;
+    overflow: auto;
+}
+#tollfree{
+    float: left;
+    color: white;
+}
+#social-icon{
+    float: right;
+}
+.fa-brands{
+    margin-top: 6%;
+}
+.link-icon{
+    color: gray;
+    background-color: white;
+    margin-top: 6%;
+    padding: 5px;
+    border-radius: 35%;
+}
+.link-icon:hover{
+    color: black;
+    background-color: lightblue;
+}
+/* Logo */
+#logoBar img{
+    width: 200px;
+    margin-top: 2%;
+    /* border: 1px solid black; */
+}
+/* NavBar */
+#navBar{
+    background-color: rgb(221, 68, 68);
+    color: white;
+}
+#navBar ul{
+    margin: 0;
+    padding: 0;
+}
+#navBar ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 1%;
+    padding-left: 5.5%;
+    font-weight: bold;
+}
+#navBar ul li a{
+    text-decoration: none;
+    color: white;
+}
+/*poster*/
+#poster{
+    background-image: url(https://thumbs.dreamstime.com/b/spring-summer-season-abstract-nature-background-grass-blue-sky-back-49716369.jpg);
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    flex-direction: column;
+}
+#poster h1{
+    font-size: 60px;
+}
+#poster p{
+    font-size: 20px;
+    text-align: center;
+}
+/*why us*/
+#why-us{
+    overflow: auto;
+    margin-bottom: 5%;
+}
+.read-heading{
+    color: red;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.section33{
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    padding: 0px 5% 0px 5%;
+    box-sizing: border-box;
+}
+.section33 img{
+    width: 40%;
+    border-radius: 25%;
+    padding-bottom: 5%;
+}
+.section33 h2{
+    color: rgb(146, 49, 49);
+}
+/*contact*/
+#contact-container{
+    background-color: rgb(221, 68, 68);
+    color: white;
+    overflow: auto;
+}
+#section-70{
+    width: 70%;
+    float: left;
+}
+#section-30{
+    width: 30%;
+    float: left;
+    padding-top: 5%;
+}
+#contact-btn{
+    padding: 5%;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    border-radius: 25%;
+}
+/* Blog */
+.section33 a{
+    color: rgb(221, 68, 68);
+    font-family: 'Caprasimo', cursive;
+}
+/*subscrip-section*/
+#subscrip-section{
+    background-color: rgb(221, 68, 68);
+    color: white;
+    overflow: auto;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+#section-50{
+    width: 50%;
+    float: left;
+}
+#section-50 h2{
+    font-size: 30px;
+    text-align: right;
+    padding-right: 10%;
+}
+#section-50 form{
+    padding-top: 4%;
+}
+#section-50 input[type="text"]{
+    width: 45%;
+    padding: 2% 5%;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    border: 0px;
+    margin-right: 3%;
+}
+#section-50 input[type="submit"]{
+    width: 20%;
+    padding: 2% 5%;
+    font-size: 15px;
+    color: red;
+    font-weight: bold;
+}
+/* footer */
+#imp-link{
+    background-color: gray;
+    color: white;
+    overflow: auto;
+}
+.div33{
+    width: 33.33%;
+    float: left;
+    padding: 2% 5%;
+    box-sizing: border-box;
+    font-weight: normal;
+}
+.div33 h3{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 2px;
+}
+#footer-text-menu{
+    padding-right: 10%;
+}
+#footer-menu{
+    list-style-type: none;
+    padding: 0;
+}
+#footer-menu li{
+    padding-bottom: 2%;
+}
+#footer-menu li a{
+    text-decoration: none;
+    color: white;
+}
+/*copywrite*/
+#copywrite{
+    background-color: rgb(39, 35, 35);
+    margin: 0;
+    padding: 1%;
+    text-align: center;
+    color: #cbcdcd;
+}
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+
+    /* Top bar */
+    #tollfree,
+    #social-icon {
+      float: none;
+      text-align: center;
+    }
+    .fa-brands,
+    .link-icon {
+      margin-top: 3%;
+    }
+  
+    /* Logo */
+    #logoBar img {
+      width: 150px;
+    }
+  
+    /* Navbar */
+    #navBar ul li {
+      padding: 1%;
+      padding-left: 3%;
+    }
+    /* #mobile-menu-btn{
+        display: none;
+    }
+    #navBar ul mobile-cross{
+        display: none;
+    } */
+    /* Poster */
+    #poster h1 {
+      font-size: 40px;
+    }
+  
+    #poster p {
+      font-size: 16px;
+    }
+  
+    /* Why Us */
+    .section33 {
+      width: 100%;
+      padding: 0px 3%;
+    }
+  
+    .section33 img {
+      width: 60%;
+      padding-bottom: 3%;
+    }
+  
+    .section33 h2 {
+      font-size: 18px;
+    }
+  
+    /* Contact */
+    #section-70,
+    #section-30 {
+      width: 100%;
+      padding: 2% 3%;
+    }
+  
+    /* Subscription Section */
+    #section-50 h2 {
+      font-size: 24px;
+      padding: 0 3%;
+    }
+  
+    #section-50 input[type="text"] {
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 3%;
+    }
+  
+    /* Footer */
+    .div33 {
+      width: 100%;
+      padding: 2% 3%;
+    }
+  
+    #footer-text-menu {
+      padding-right: 5%;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    /* Adjust styles for smaller screens */
+  
+    /* Poster */
+    #poster h1 {
+      font-size: 30px;
+    }
+  
+    #poster p {
+      font-size: 14px;
+    }
+  
+    /* Why Us */
+    .section33 img {
+      width: 70%;
+    }
+  
+    .section33 h2 {
+      font-size: 16px;
+    }
+  
+    /* Contact */
+    #section-50 h2 {
+      font-size: 20px;
+      padding-right: 3%;
+    }
+  
+    #section-50 input[type="text"] {
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 3%;
+    }
+  }  
+  @media only screen and (max-width: 480px) {
+    #navBar {
+        background-color: rgb(221, 68, 68);
+        color: white;
+        position: absolute;
+        top: 0px;
+        width: 75%;
+        height: 90%;
+        padding: 2%;
+        left: -80%;
+        transition: all 0.5s ease;
+    }
+    #navBar ul li {
+        padding: 6%;
+        display: block;
+        text-align: center;
+        border-bottom: 1px solid whitesmoke;
+    }
+    #mobile-menu-btn{
+        background-color: red;
+        color: white;
+        padding: 1%;
+        font-size: 30px;
+    }
+    .fa-solid{
+        font-size: 25px;
+    }
+  }
